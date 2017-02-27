@@ -25,7 +25,7 @@ public class Tuition
 			tuition0 = tuition0 + rate();
 			total = total + tuition0;
 		}
-		System.out.println(total+tuition);
+		System.out.printf("For 4 years it'll cost: $%.2f%n",total+tuition);
 	}
 	
 	public static double rate()
